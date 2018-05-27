@@ -2,7 +2,7 @@
 function displayError(){
   $('#errors').html("I'm sorry, there's been an error. Please try again.")
 }
-var renderSearchResult = (result) => {
+function renderSearchResult(result){
   return `
       <div>
         <h2><a href="${result.html_url}">${result.name}</a></h2>
